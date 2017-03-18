@@ -1,0 +1,40 @@
+# provider stuff
+access_key = "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+secret_key = "SSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+
+# EC2 stuff
+ec2_region = "eu-west-1"
+main_ami = "ami-a192bad2"
+terraform-ssh-key = "terraform-ssh-key"
+
+# vpc
+vpc_cidr_block = "10.10.0.0/16"
+
+# Subnets settings
+vpc_S1_cidr = "10.10.5.0/24"
+vpc_S1_AZ = "eu-west-1a"
+vpc_S1_default_pubip = "true"
+
+vpc_S3_cidr = "10.10.10.0/24"
+vpc_S3_AZ = "eu-west-1b"
+vpc_S3_default_pubip = "true"
+
+vpc_S5_cidr = "10.10.15.0/24"
+vpc_S5_AZ = "eu-west-1c"
+vpc_S5_default_pubip = "true"
+
+
+vpc_S2_cidr = "10.10.3.0/24"
+vpc_S2_AZ = "eu-west-1a"
+vpc_S2_default_pubip = "false"
+
+
+vpc_S4_cidr = "10.10.6.0/24"
+vpc_S4_AZ = "eu-west-1b"
+vpc_S4_default_pubip = "false"
+
+
+
+vpc_S6_cidr = "10.10.9.0/24"
+vpc_S6_AZ = "eu-west-1c"
+vpc_S6_default_pubip = "false"
